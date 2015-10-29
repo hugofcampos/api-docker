@@ -1,6 +1,6 @@
 # PhalconPHP API Docker
 
-> Dockerized PHP development stack: Nginx, MySQL, MongoDB, PHP-FPM and Redis
+> Dockerized PHP development stack: Nginx, MySQL, MongoDB, PHP-FPM, PhalconPHP and Redis
 
 [![Build Status](https://travis-ci.org/hugofcampos/api-docker.svg)](https://travis-ci.org/hugofcampos/api-docker)
 
