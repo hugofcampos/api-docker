@@ -1,21 +1,19 @@
-# PHP Dockerized
+# PhalconPHP API Docker
 
-> Dockerized PHP development stack: Nginx, MySQL, MongoDB, PHP-FPM, HHVM, Memcached, Redis, and Elasticsearch
+> Dockerized PHP development stack: Nginx, MySQL, MongoDB, PHP-FPM and Redis
 
-[![Build Status](https://travis-ci.org/kasperisager/php-dockerized.svg)](https://travis-ci.org/kasperisager/php-dockerized)
+[![Build Status](https://travis-ci.org/hugofcampos/api-docker.svg)](https://travis-ci.org/hugofcampos/api-docker)
 
-PHP Dockerized gives you everything you need for developing PHP applications locally. The idea came from the need of having an OS-agnostic and virtualized alternative to the great [MNPP](https://github.com/jyr/MNPP) stack as regular LAMP stacks quite simply can't keep up with the Nginx + PHP-FPM/HHVM combo in terms of performance. I hope you'll find it as useful an addition to your dev-arsenal as I've found it!
+PhalconPHP API Docker gives you everything you need for developing the API.
 
 ## What's inside
 
 * [Nginx](http://nginx.org/)
+* [PHP-FPM](http://php-fpm.org/)
+* [PhalconPHP](https://phalconphp.com/)
 * [MySQL](http://www.mysql.com/)
 * [MongoDB](http://www.mongodb.org/)
-* [PHP-FPM](http://php-fpm.org/)
-* [HHVM](http://www.hhvm.com/)
-* [Memcached](http://memcached.org/)
 * [Redis](http://redis.io/)
-* [Elasticsearch](http://www.elasticsearch.org/)
 
 ## Requirements
 
@@ -35,4 +33,4 @@ That's it! You can now access your configured sites via the IP address of the Do
 
 ## License
 
-Copyright &copy; 2014-2015 [Kasper Kronborg Isager](http://github.com/kasperisager). Licensed under the terms of the [MIT license](LICENSE.md).
+Copyright &copy; 2015 [Hugo Campos](http://github.com/hugofcampos). Licensed under the terms of the [MIT license](LICENSE.md).
