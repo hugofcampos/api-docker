@@ -49,6 +49,7 @@ RUN sed -i "s/group = www-data/group = root/" /etc/php5/fpm/pool.d/www.conf
 COPY conf/nginx.conf /etc/nginx/
 COPY conf/supervisord.conf /etc/supervisor/conf.d/
 COPY conf/php.ini /etc/php5/fpm/conf.d/40-custom.ini
+COPY conf/security.ini /etc/php5/fpm/conf.d/40-security.ini
 
 ################################################################################
 # Volumes
