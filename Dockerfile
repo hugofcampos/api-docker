@@ -38,6 +38,9 @@ RUN mv modules/redis.so {php-config–extension-dir}
 RUN git clone --depth=1 git://github.com/phalcon/cphalcon.git
 RUN cd cphalcon/build && ./install
 
+# Install PHP Mongo
+RUN pecl install mongo
+
 # Ensure that PHP5 FPM is run as root.
 RUN sed -i "s/user = www-data/user = root/" /etc/php5/fpm/pool.d/www.conf
 RUN sed -i "s/group = www-data/group = root/" /etc/php5/fpm/pool.d/www.conf
